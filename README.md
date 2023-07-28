@@ -18,9 +18,9 @@ The Twitter data is divided into training and testing sets (`X_train`, `X_test`,
 
 The SVM classifiers (`clf1` and `clf2`) are trained on the training data with BOW and tfidf representations, respectively.
 
-The classifiers predict the sentiment labels for the test data (`y_predict_bow`, `y_predict_tfidf`).
+The classifiers predict the sentiment labels for the test data (`y_predict_count`, `y_predict_tfidf`).
 
-The accuracy of the predictions is calculated using scikit-learn's `accuracy_score` function for both BOW and tfidf representations.
+The accuracy of the predictions is calculated using scikit-learn's `accuracy_score` function for both Count and tfidf representations.
 
 The prediction accuracies for BOW and tfidf are printed at the end.
 
